@@ -18,7 +18,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Inicializar el bot con tu token de Telegram
-bot = telebot.TeleBot(os.getenv('TELEGRAM_TOKEN'))
+bot = telebot.TeleBot("7519736547:AAGLA7-IWiLp-FbMrWQJablCbbItdrkEi-U")
 
 # URL de la página Binance Learn and Earn
 url = "https://academy.binance.com/es/learn-and-earn"
