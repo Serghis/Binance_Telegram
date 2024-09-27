@@ -24,7 +24,7 @@ bot = telebot.TeleBot("7519736547:AAGLA7-IWiLp-FbMrWQJablCbbItdrkEi-U")
 url = "https://academy.binance.com/es/learn-and-earn"
 
 # Tu ID de usuario de Telegram
-Chat_ID = int(os.getenv('CHAT_ID'))
+Chat_ID = 5238461749
 
 def setup_selenium():
     chrome_options = Options()
