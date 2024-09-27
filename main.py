@@ -18,13 +18,13 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Inicializar el bot con tu token de Telegram
-bot = telebot.TeleBot("7519736547:AAGLA7-IWiLp-FbMrWQJablCbbItdrkEi-U")
+bot = telebot.TeleBot(os.getenv('TELEGRAM_TOKEN'))
 
 # URL de la página Binance Learn and Earn
 url = "https://academy.binance.com/es/learn-and-earn"
 
 # Tu ID de usuario de Telegram
-Chat_ID = 5238461749
+Chat_ID = int(os.getenv('CHAT_ID'))
 
 def setup_selenium():
     chrome_options = Options()
